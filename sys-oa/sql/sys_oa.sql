@@ -14,6 +14,9 @@
  Date: 12/01/2021 20:12:14
 */
 
+CREATE DATABASE `oa_db` CHARACTER SET utf8 COLLATE utf8_general_ci;
+use `oa_db`;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 

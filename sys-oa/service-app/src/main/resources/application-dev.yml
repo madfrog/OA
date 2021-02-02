@@ -5,9 +5,9 @@ spring:
     process-definition-location-prefix: / # 修改默认的 processes
   #数据源
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/activiti_db?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://127.0.0.1:3306/oa_db?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: tiger
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     ddl-auto: update
 

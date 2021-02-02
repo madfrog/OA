@@ -43,7 +43,8 @@ public class FormController extends AbstractController<Form>
     @PostMapping("/save")
     public R save(@RequestBody @Valid Form form)
     {
-        form.setCreateUserId(getCurrentUserId());
+//        form.setCreateUserId(getCurrentUserId());
+        form.setId(getCurrentUserId());   // TODO:
         return success(iFormService.insert(form));
     }
 

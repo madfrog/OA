@@ -204,6 +204,7 @@
     },
     methods: {
       add() {
+        alert("====================")
         this.dialog.visible = true;
         this.setDataToForm(null);
       },

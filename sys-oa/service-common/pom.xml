@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>service-common</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>service-common Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
@@ -34,6 +34,12 @@
             <artifactId>shiro-core</artifactId>
             <version>1.4.1</version>
             <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.75</version>
         </dependency>
     </dependencies>
 
